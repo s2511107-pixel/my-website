@@ -1,0 +1,236 @@
+/* アスキーコードをutf8に */
+@charset "utf-8";
+
+/* 共通デザイン */
+/* ページのスクロール移動をスムーズに */
+html {
+  scroll-behavior: smooth;
+}
+
+:target {
+  padding-top: 64px;
+}
+
+/* body全体にフォント指定と背景色 */
+body {
+  font-family: sans-serif;
+  background-color: #fff1cf;
+}
+/* ヘッダのスタイルを指定 */
+header {
+  width: 960px;
+  margin: 32px auto 32px auto;
+  
+}
+
+header img {
+  width: 640px;
+}
+
+.site_reserve {
+  width: 320px;
+  text-align: right;
+}
+/* スマホ用ヘッダのスタイル*/
+@media screen and (max-width: 960px) {
+  header {
+    width: 100%;
+  }
+
+  header img {
+    width: 100%;
+  }
+
+  .site_reserve {
+    width: 100%;
+    text-align: center;
+  }
+}
+/* メインの指定 */
+main {
+  max-width: 960px;
+  margin: 0 auto 0 auto;
+  background-color: #fff;
+  text-align: center;
+}
+#mian-event{text-align: center;}
+/* メインのナビゲーションバーを指定 */
+nav {
+  background-color: #6f4c5b;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 960px;
+  margin: 8px auto 8px auto;
+  list-style: none;
+}
+
+nav li {
+  width: 96px;
+  margin: 8px;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav a:hover {
+  opacity: 0.7;
+}
+/* メインのイベント画像の指定 */
+#main-event img {
+  width: 280px;
+  margin: 8px;
+}
+
+/* スマホ用イベント画像のスタイル*/
+@media screen and {
+  #main-event img {
+  width: 100%;;
+  }
+}
+@media screen and{#main img{width: 100%;height: auto;}}
+/* テーマロゴの画像のスタイル指定 */
+.theme_logo {
+  margin: 0 auto 0 auto;
+}
+
+/* スマホ用テーマロゴの画像のデザイン指定 */
+@media screen and (max-width: 960px) {
+  .theme_logo img {
+    width: 100%;
+  }
+}
+/* メインのお知らせの指定 */
+
+}
+.twitter-timeline {
+  margin: 0 auto 0 auto;
+}
+
+/* スマホ用お知らせのスタイル*/
+@media screen and (max-width: 960px) {
+  .twitter-timeline {
+    width: 100%;
+  }
+  .calendar_news iframe {
+    width: 100%;
+  }
+}
+/* メインのコンセプトの指定 */
+#main-concept {text-align: center;
+  margin: 80px auto 80px auto;}
+  
+
+#main-concept img {
+  margin: 0 auto 0 auto;
+}
+.
+#main-concept h2 {
+  width: 100%;
+}
+#main-concept p{min-width: 0;}
+.concept_category {
+  width: 50%;
+  margin: 8px auto 8px auto;
+}
+/* メインのメニューの指定 */
+#main-menu {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#main-menu img {
+  margin: 0 auto 0 auto;
+}
+#main img{margin: 0 auto 0 auto;}
+#main-menu h2 {
+  width: 100%;
+}
+#main-menu h3{text-align: center;min-width: 0;width: 100%;}
+.menu_category {
+  width: 50%;
+  margin: 0 auto 32px auto;
+}
+#main-menu ul{width:100% ;list-style-type:none;margin: 0;}
+}
+
+.menu_category img {
+  width: 320px;
+  height: 240px;}
+#main-impression img{width:100%;}
+#main-impression h3{text-align: center;}
+
+.ex3{display: flex;}
+
+
+  #main-access{
+    max-width:960px;
+    margin:0 auto;
+}}
+#main-news{
+    max-width:960px;
+    margin:0 auto;
+}
+#main-concept{
+    max-width:960px;
+    margin:0 auto;
+}  
+#main-concept img{width:100%;height:auto;display:block;min-width: 0;max-width: 960px;text-align: left;}
+ #main-access img{width:100%;height:auto;display:block;min-width: 0;max-width: 960px;text-align: left;} 
+#main-news img{width:100%;height:auto;display:block;min-width: 0;max-width: 960px;text-align: left;}
+#main img{width: 100%;max-width: 960px;height: auto;min-width: 0;}
+#main-takeout img{width:100%;height:auto;display:block;min-width: 0;max-width: 960px;text-align: left;}
+/* スマホ用メニューのスタイル*/
+@media screen and (max-width: 960px) {
+  #main-menu img {width: 100%;height: auto;
+  }
+}
+/* スマホ用アクセスのスタイル*/
+@media screen and (max-width: 960px) {
+  .access_map iframe {
+    width: 100%;
+  }
+}
+.ex3{ display:flex;gap:30px;}
+
+.ex1,.ex2{flex:1;min-width:0;}
+
+.ex1 img,
+.ex2 img{width:100%;height:auto;display:block;}
+#main-takeout{
+    max-width:960px;
+    margin:0 auto;
+}
+
+.ex6{ display:flex;gap:30px;}
+
+.ex4,.ex5{flex:1;min-width:0;}
+
+.ex4 img,
+.ex5 img{width:100%;height:auto;display:block;}
+#main-concept{
+    max-width:960px;
+    margin:0 auto;
+
+
+
+/* フッターの指定 */
+footer {
+  text-align: center;
+} 
+
+
+  .site_reserve {
+    width: 100%;
+
+    /*画像の指定＊/
+
